@@ -1,3 +1,4 @@
+import Service from "../../components/Service/Service";
 import Banner from "../../components/shared/Banner/Banner";
 import Navbar from "../../components/shared/Navbar/Navbar";
 
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
             <Navbar></Navbar>
             <Banner></Banner>
+            <Service></Service>
         </div>
     );
 };
