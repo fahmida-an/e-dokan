@@ -6,7 +6,7 @@ const OrderTab = ({items}) => {
     const visibleItems = showAll ? items : items.slice(0, CardsPerPage);
     return (
        <>
-        <div style={{ position: "relative" }} className="grid md:grid-cols-3 gap-8 mt-4 max-w-5xl mx-auto">
+        <div style={{ position: "relative" }} className="grid md:grid-cols-3 gap-8 mt-4 max-w-6xl mx-auto">
         {
              visibleItems.map(item => <ProductCard key={item._id}
              item={item}
