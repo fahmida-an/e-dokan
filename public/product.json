@@ -1,0 +1,195 @@
+[
+    {
+      "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+      "title": "Featured",
+      "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+      "rating": 4.5,
+      "price": "$99.99",
+      "category": "featured"
+    }, 
+     {
+        "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+        "title": "Top Rated",
+        "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+        "rating": 4.5,
+        "price": "$99.99",
+        "category": "toprated"
+      }, 
+      {
+        "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+        "title": "New Arrival",
+        "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+        "rating": 4.5,
+        "price": "$99.99",
+        "category": "newarrival"
+      },
+      {
+        "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+        "title": "Best Seller",
+        "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+        "rating": 4.5,
+        "price": "$99.99",
+        "category": "bestseller"
+      },
+      {
+        "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+        "title": "Featured",
+        "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+        "rating": 4.5,
+        "price": "$99.99",
+        "category": "featured"
+      }, 
+       {
+          "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+          "title": "Top Rated",
+          "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+          "rating": 4.5,
+          "price": "$99.99",
+          "category": "toprated"
+        }, 
+        {
+          "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+          "title": "New Arrival",
+          "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+          "rating": 4.5,
+          "price": "$99.99",
+          "category": "newarrival"
+        },
+        {
+          "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+          "title": "Best Seller",
+          "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+          "rating": 4.5,
+          "price": "$99.99",
+          "category": "bestseller"
+        }, 
+        {
+          "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+          "title": "Featured",
+          "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+          "rating": 4.5,
+          "price": "$99.99",
+          "category": "featured"
+        }, 
+         {
+            "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+            "title": "Top Rated",
+            "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+            "rating": 4.5,
+            "price": "$99.99",
+            "category": "toprated"
+          }, 
+          {
+            "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+            "title": "New Arrival",
+            "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+            "rating": 4.5,
+            "price": "$99.99",
+            "category": "newarrival"
+          },
+          {
+            "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+            "title": "Best Seller",
+            "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+            "rating": 4.5,
+            "price": "$99.99",
+            "category": "bestseller"
+          },
+          {
+            "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+            "title": "Featured",
+            "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+            "rating": 4.5,
+            "price": "$99.99",
+            "category": "featured"
+          }, 
+           {
+              "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+              "title": "Top Rated",
+              "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+              "rating": 4.5,
+              "price": "$99.99",
+              "category": "toprated"
+            }, 
+            {
+              "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+              "title": "New Arrival",
+              "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+              "rating": 4.5,
+              "price": "$99.99",
+              "category": "newarrival"
+            },
+            {
+              "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+              "title": "Best Seller",
+              "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+              "rating": 4.5,
+              "price": "$99.99",
+              "category": "bestseller"
+            },
+            {
+              "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+              "title": "Featured",
+              "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+              "rating": 4.5,
+              "price": "$99.99",
+              "category": "featured"
+            }, 
+             {
+                "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+                "title": "Top Rated",
+                "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+                "rating": 4.5,
+                "price": "$99.99",
+                "category": "toprated"
+              }, 
+              {
+                "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+                "title": "New Arrival",
+                "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+                "rating": 4.5,
+                "price": "$99.99",
+                "category": "newarrival"
+              },
+              {
+                "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+                "title": "Best Seller",
+                "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+                "rating": 4.5,
+                "price": "$99.99",
+                "category": "bestseller"
+              },
+              {
+                "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+                "title": "Featured",
+                "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+                "rating": 4.5,
+                "price": "$99.99",
+                "category": "featured"
+              }, 
+               {
+                  "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+                  "title": "Top Rated",
+                  "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+                  "rating": 4.5,
+                  "price": "$99.99",
+                  "category": "toprated"
+                }, 
+                {
+                  "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+                  "title": "New Arrival",
+                  "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+                  "rating": 4.5,
+                  "price": "$99.99",
+                  "category": "newarrival"
+                },
+                {
+                  "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
+                  "title": "Best Seller",
+                  "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+                  "rating": 4.5,
+                  "price": "$99.99",
+                  "category": "bestseller"
+                }
+    ]
+  
