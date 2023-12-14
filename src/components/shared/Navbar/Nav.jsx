@@ -6,9 +6,11 @@ import { FaRegHeart } from "react-icons/fa";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { MdPerson3 } from "react-icons/md";
 import { AuthContext } from "../../../Provider/AuthProvider";
+import useCart from "../../../hooks/useCart";
 const Nav = () => {
   const [click, setClick] = useState(false);
   const { user, logOut } = useContext(AuthContext);
+  const [carts] = useCart()
   const handleClick = () => {
     setClick(!click);
   };
@@ -116,7 +118,7 @@ const Nav = () => {
     </li>
     <li>
       <NavLink
-        to={"/featured"}
+        to={"/carts"}
         className={({ isActive }) =>
           isActive
             ? " text-yellow-500"
@@ -124,7 +126,10 @@ const Nav = () => {
         }
       >
         <MdOutlineShoppingCart className="relative" />
-        <sup className="absolute ml-5 text-md mt-8 text-yellow-500">0</sup>
+        {/* <sup className="absolute ml-5 text-md mt-8 text-yellow-500">{carts.length}</sup> */}
+        <sup className="absolute ml-5 text-md mt-8 text-yellow-500">
+      {carts.length > 0 ? carts.length : 0}
+    </sup>
       </NavLink>
     </li>
     <li>

@@ -5,6 +5,8 @@ import ProductDetails from "../components/ProductDetails/ProductDetails";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import AllProduct from "../components/ProductCard/AllProduct/AllProduct";
+import PrivateRoutes from "./PrivateRoutes";
+import Carts from "../components/carts/Carts";
 const router = createBrowserRouter([
     {
       path: "/",
@@ -16,11 +18,15 @@ const router = createBrowserRouter([
         }, 
         {
           path: `/product/:id`,
-          element: <ProductDetails></ProductDetails>
+          element: <PrivateRoutes><ProductDetails></ProductDetails></PrivateRoutes>
         }, 
         {
           path: '/product',
           element: <AllProduct></AllProduct>
+        },
+         {
+          path: '/carts',
+          element: <Carts></Carts>
         }
       ]
     },
