@@ -1,39 +1,28 @@
 [
     {
       "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-      "title": "Card 1",
-      "width": 300,
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in augue in eros pharetra venenatis."
+      "title": "Sofa"
+      
     },
     {
-      "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-      "title": "Card 2",
-      "width": 300,
-      "content": "Sed eu justo ac arcu luctus cursus. Mauris vel sapien vitae dui ultricies fermentum."
+      "image": "https://i.ibb.co/pRgkKfL/pexels-hormel-2762247.jpg",
+      "title": "Chair"
     },
     {
-      "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-      "title": "Card 3",
-      "width": 600,
-      "content": "Fusce ac justo nec metus sollicitudin iaculis. Integer lacinia justo vel elit cursus, eu hendrerit arcu tristique."
+      "image": "https://i.ibb.co/KwjSXvD/pexels-nugroho-wahyu-3097112.jpg",
+      "title": "Furniture"
     },
     {
-        "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-        "title": "Card 1",
-        "width": 600,
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in augue in eros pharetra venenatis."
+        "image": "https://i.ibb.co/3y68sNQ/pexels-sammsara-luxury-modern-home-1099816.jpg",
+        "title": "Decor"
       },
       {
-        "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-        "title": "Card 2",
-        "width": 300,
-        "content": "Sed eu justo ac arcu luctus cursus. Mauris vel sapien vitae dui ultricies fermentum."
+        "image": "https://i.ibb.co/JpKKrhj/pexels-pixabay-279648.jpg",
+        "title": "kitchen"
       },
       {
-        "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-        "title": "Card 3",
-        "width": 300,
-        "content": "Fusce ac justo nec metus sollicitudin iaculis. Integer lacinia justo vel elit cursus, eu hendrerit arcu tristique."
+        "image": "https://i.ibb.co/ScBYbqq/pexels-pixabay-271676.jpg",
+        "title": "Pillow"
       }
   ]
   

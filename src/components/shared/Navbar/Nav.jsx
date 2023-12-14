@@ -119,7 +119,7 @@ const Nav = () => {
                 </li>
             <li>
             <NavLink
-                  to={"/signup"}
+                  to={"/login"}
                   className={({ isActive }) =>
                     isActive
                       ? " text-yellow-500"

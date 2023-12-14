@@ -18,7 +18,7 @@ const ProductDetails = () => {
     return <span>Loading...</span>;
   }
   return (
-    <div className="max-w-5xl mx-auto h-full px-16 py-7">
+    <div className="max-w-5xl mx-auto h-screen px-16 py-7">
     <img
       className="lg:w-[1000px] lg:h-[450px] w-[600px] h-[300px] mb-7 border border-b-2"
       src={productCard.image}

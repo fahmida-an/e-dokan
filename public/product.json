@@ -1,195 +1,106 @@
 [
     {
-      "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-      "title": "Featured",
-      "description": "This is a sample product description. It provides details about the features and benefits of the product.",
+      "image": "https://i.ibb.co/bWPQn1c/pexels-martin-p-chy-1866149-1-removebg-preview.png",
+      "title": "2-seat Orange Leather Sofa Beside Wall",
+      "description": "Vibrant and inviting, the 2-seat orange leather sofa effortlessly enhances any space. Its bold hue adds warmth, while its sleek design and placement beside the wall create a cozy and stylish seating area.",
+      "rating": 5,
+      "price": "89.00",
+      "category": "featured"
+    },
+    {
+      "image": "https://i.ibb.co/g6bgwYD/pexels-steve-johnson-923192-removebg-preview.png",
+      "title": "Two Suede Armchairs",
+      "description": "Elevate your space with two plush suede armchairs. The luxurious material and modern design provide both comfort and style, making these armchairs perfect additions to any room in your home.",
+      "rating": 5,
+      "price": "99.00",
+      "category": "toprated"
+    },
+    {
+      "image": " https://i.ibb.co/ZT58YtF/pexels-eric-mufasa-1350789-removebg-preview.png",
+      "title": "Two Assorted-color Padded Chairs",
+      "description": "Add a touch of versatility to your space with two assorted-color padded chairs. These chic and comfortable chairs provide a stylish seating solution for any room, blending seamlessly with your interior.",
+      "rating": 4,
+      "price": "49.00",
+      "category": "newarrival"
+    },
+    
+    {
+      "image": " https://i.ibb.co/68ygDk5/pexels-chris-f-8649354.jpg",
+      "title": "Illuminated Black Pendant Lamp",
+      "description": "Enhance your space with the contemporary charm of an illuminated black pendant lamp. The sleek design and soft glow create a sophisticated ambiance, making it a striking and functional addition to any room.",
+      "rating": 4,
+      "price": "40.00",
+      "category": "newarrival"
+    }, 
+    {
+      "image": " https://i.ibb.co/31czbWF/pexels-mike-bird-198272-removebg-preview.png",
+      "title": "IBrown Corduroy 2-seat Sofa",
+      "description": "Experience comfort and style with a brown corduroy 2-seat sofa. The rich, earthy tones of corduroy fabric combined with the practicality of a two-seater make it an inviting and versatile addition to your living space.",
       "rating": 4.5,
-      "price": "$99.99",
+      "price": "129.00",
+      "category": "toprated"
+    }, 
+    {
+      "image": " https://i.ibb.co/FbxDTNJ/pexels-lisa-fotios-1090638.jpg",
+      "title": "Crates Mounted On Wall",
+      "description": "Effortlessly organize your space with crates mounted on the wall. This functional and decorative solution adds a rustic touch, creating a unique storage display that maximizes both style and practicality in any room.",
+      "rating": 4.5,
+      "price": "75.00",
       "category": "featured"
     }, 
+    {
+      "image": " https://i.ibb.co/7ryvj0B/pexels-huseyn-kamaladdin-667838-removebg-preview.png",
+      "title": "Brown Wooden Desk With Rolling Chair ",
+      "description": "Optimize your workspace with a brown wooden desk paired with a rolling chair. This functional duo brings a warm and classic touch to your office or study area, providing comfort and efficiency for your daily tasks.",
+      "rating": 4.5,
+      "price": "200.00",
+      "category": "featured"
+    },
+    {
+      "image": " https://i.ibb.co/NWs08K5/pexels-medhat-ayad-439227.jpg",
+      "title": "White and Black Desk ",
+      "description": "Achieve a modern aesthetic with a white and black desk. The contrasting colors create a sleek and sophisticated look, making this desk a stylish addition to any contemporary workspace or home office.",
+      "rating": 5,
+      "price": "200.00",
+      "category": "bestseller"
+    },
+    {
+      "image": " https://i.ibb.co/dp4F87x/pexels-pixabay-276534.jpg",
+      "title": "Two Pillows on White Leather Fainting Couch ",
+      "description": "Enhance the elegance of your space with two pillows on a white leather fainting couch. The combination of luxurious leather and plush pillows creates a sophisticated and inviting seating arrangement, adding comfort and style to your decor.",
+      "rating": 5,
+      "price": "200.00",
+      "category": "bestseller"
+    }, {
+      "image": " https://i.ibb.co/473m927/pexels-pixabay-279746.jpg",
+      "title": "White Bed Cover Near Wall ",
+      "description": "Create a serene bedroom ambiance with a white bed cover near the wall. The crisp white fabric complements the wall color, bringing a sense of tranquility and cleanliness to your sleeping space.",
+      "rating": 4.5,
+      "price": "300.00",
+      "category": "featured"
+    },
      {
-        "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-        "title": "Top Rated",
-        "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-        "rating": 4.5,
-        "price": "$99.99",
-        "category": "toprated"
-      }, 
-      {
-        "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-        "title": "New Arrival",
-        "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-        "rating": 4.5,
-        "price": "$99.99",
-        "category": "newarrival"
-      },
-      {
-        "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-        "title": "Best Seller",
-        "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-        "rating": 4.5,
-        "price": "$99.99",
-        "category": "bestseller"
-      },
-      {
-        "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-        "title": "Featured",
-        "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-        "rating": 4.5,
-        "price": "$99.99",
-        "category": "featured"
-      }, 
-       {
-          "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-          "title": "Top Rated",
-          "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-          "rating": 4.5,
-          "price": "$99.99",
-          "category": "toprated"
-        }, 
-        {
-          "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-          "title": "New Arrival",
-          "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-          "rating": 4.5,
-          "price": "$99.99",
-          "category": "newarrival"
-        },
-        {
-          "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-          "title": "Best Seller",
-          "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-          "rating": 4.5,
-          "price": "$99.99",
-          "category": "bestseller"
-        }, 
-        {
-          "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-          "title": "Featured",
-          "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-          "rating": 4.5,
-          "price": "$99.99",
-          "category": "featured"
-        }, 
-         {
-            "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-            "title": "Top Rated",
-            "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-            "rating": 4.5,
-            "price": "$99.99",
-            "category": "toprated"
-          }, 
-          {
-            "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-            "title": "New Arrival",
-            "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-            "rating": 4.5,
-            "price": "$99.99",
-            "category": "newarrival"
-          },
-          {
-            "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-            "title": "Best Seller",
-            "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-            "rating": 4.5,
-            "price": "$99.99",
-            "category": "bestseller"
-          },
-          {
-            "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-            "title": "Featured",
-            "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-            "rating": 4.5,
-            "price": "$99.99",
-            "category": "featured"
-          }, 
-           {
-              "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-              "title": "Top Rated",
-              "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-              "rating": 4.5,
-              "price": "$99.99",
-              "category": "toprated"
-            }, 
-            {
-              "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-              "title": "New Arrival",
-              "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-              "rating": 4.5,
-              "price": "$99.99",
-              "category": "newarrival"
-            },
-            {
-              "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-              "title": "Best Seller",
-              "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-              "rating": 4.5,
-              "price": "$99.99",
-              "category": "bestseller"
-            },
-            {
-              "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-              "title": "Featured",
-              "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-              "rating": 4.5,
-              "price": "$99.99",
-              "category": "featured"
-            }, 
-             {
-                "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-                "title": "Top Rated",
-                "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-                "rating": 4.5,
-                "price": "$99.99",
-                "category": "toprated"
-              }, 
-              {
-                "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-                "title": "New Arrival",
-                "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-                "rating": 4.5,
-                "price": "$99.99",
-                "category": "newarrival"
-              },
-              {
-                "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-                "title": "Best Seller",
-                "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-                "rating": 4.5,
-                "price": "$99.99",
-                "category": "bestseller"
-              },
-              {
-                "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-                "title": "Featured",
-                "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-                "rating": 4.5,
-                "price": "$99.99",
-                "category": "featured"
-              }, 
-               {
-                  "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-                  "title": "Top Rated",
-                  "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-                  "rating": 4.5,
-                  "price": "$99.99",
-                  "category": "toprated"
-                }, 
-                {
-                  "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-                  "title": "New Arrival",
-                  "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-                  "rating": 4.5,
-                  "price": "$99.99",
-                  "category": "newarrival"
-                },
-                {
-                  "image": "https://i.ibb.co/C809hjb/pexels-vika-glitter-1648768.jpg",
-                  "title": "Best Seller",
-                  "description": "This is a sample product description. It provides details about the features and benefits of the product.",
-                  "rating": 4.5,
-                  "price": "$99.99",
-                  "category": "bestseller"
-                }
+      "image": " https://i.ibb.co/kxqNHzn/pexels-emre-can-acer-2079246.jpg",
+      "title": "Round Brown Wooden Table Between Two Chairs",
+      "description": "Elevate your seating area with a round brown wooden table positioned between two chairs. This inviting arrangement creates a cozy and balanced space, perfect for conversations, relaxation, or enjoying a cup of coffee.",
+      "rating": 4.5,
+      "price": "150.00",
+      "category": "featured"
+    },{
+      "image": " https://i.ibb.co/Kj6H4Rw/pexels-vecislavas-popa-1571470.jpg",
+      "title": "Three Gray Ornaments on White Wooden Desk",
+      "description": "Adorn your white wooden desk with three elegant gray ornaments. The subtle contrast of colors brings a refined touch to your workspace, adding a tasteful and decorative element to the minimalist setting",
+      "rating": 4.5,
+      "price": "150.00",
+      "category": "featured"
+    },
+    {
+      "image": "https://i.ibb.co/121vwpt/pexels-emma-pollard-1534924.jpg",
+      "title": "Rectangular Green Swiss-cheese Leafed Plant ",
+      "description": "Adorn your white wooden desk with three elegant gray ornaments. The subtle contrast of colors brings a refined touch to your workspace, adding a tasteful and decorative element to the minimalist setting.",
+      "rating": 4.5,
+      "price": "340.00",
+      "category": "featured"
+    }
     ]
-  
+   
