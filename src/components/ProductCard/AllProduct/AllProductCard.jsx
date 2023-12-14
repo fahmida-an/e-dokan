@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 
-const ProductCard = ({item}) => {
-    const {image, price, title,_id} = item;
+const AllProductCard = ({item}) => {
+    const {image, title, price, _id} = item;
     return (
-      <div className="card w-80 h-[400px] bg-base-100 shadow-xl rounded-none">
+        <div className="max-w-6xl mx-auto">
+            <div className="card w-80 h-[400px] bg-base-100 shadow-xl rounded-none">
   <figure>
     <img src={image} alt={title} className="transition-transform transform hover:scale-110 h-[200px] object-cover" />
   </figure>
@@ -21,7 +22,8 @@ const ProductCard = ({item}) => {
     </div>
   </div>
 </div>
+        </div>
     );
 };
 
-export default ProductCard;
+export default AllProductCard;

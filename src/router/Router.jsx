@@ -4,6 +4,7 @@ import Home from "../pages/Home/Home";
 import ProductDetails from "../components/ProductDetails/ProductDetails";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
+import AllProduct from "../components/ProductCard/AllProduct/AllProduct";
 const router = createBrowserRouter([
     {
       path: "/",
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
         {
           path: `/product/:id`,
           element: <ProductDetails></ProductDetails>
+        }, 
+        {
+          path: '/product',
+          element: <AllProduct></AllProduct>
         }
       ]
     },

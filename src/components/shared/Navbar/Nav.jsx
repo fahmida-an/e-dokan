@@ -1,14 +1,25 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
 import { FaRegHeart } from "react-icons/fa";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { MdPerson3 } from "react-icons/md";
+import { AuthContext } from "../../../Provider/AuthProvider";
 const Nav = () => {
   const [click, setClick] = useState(false);
+  const { user, logOut } = useContext(AuthContext);
   const handleClick = () => {
     setClick(!click);
+  };
+  const handleLogOut = () => {
+    logOut()
+      .then(() => {
+        console.log("user logout");
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   };
   const content = (
     <>
@@ -62,7 +73,7 @@ const Nav = () => {
 
               <li>
                 <NavLink
-                  to={"/products"}
+                  to={"/product"}
                   className={({ isActive }) =>
                     isActive
                       ? " text-yellow-500"
@@ -89,47 +100,67 @@ const Nav = () => {
          
        
           </div>
-          <ul className="flex gap-4 mr-16 text-[18px]">
-            <li>
-            <NavLink
-                  to={"/featured"}
-                  className={({ isActive }) =>
-                    isActive
-                      ? " text-yellow-500"
-                      : "cursor-pointer hover:text-yellow-500"
-                  }
-                >
-                 <FaRegHeart className="relative"  />
-                 <sup className="absolute ml-5 text-md mt-8 text-yellow-500">0</sup>
-                </NavLink>
-            </li>
-            <li>
-            <NavLink
-                  to={"/featured"}
-                  className={({ isActive }) =>
-                    isActive
-                      ? " text-yellow-500"
-                      : "cursor-pointer hover:text-yellow-500"
-                  }
-                >
-               <MdOutlineShoppingCart className="relative" /> 
-               <sup className="absolute ml-5 text-md mt-8 text-yellow-500">0</sup>
-               
-                </NavLink>
-                </li>
-            <li>
-            <NavLink
-                  to={"/login"}
-                  className={({ isActive }) =>
-                    isActive
-                      ? " text-yellow-500"
-                      : "cursor-pointer hover:text-yellow-500"
-                  }
-                >
-               <MdPerson3 /> 
-                </NavLink>
-            </li>
-         </ul>
+          <ul className="flex gap-4 mr-16 text-[18px] items-center">
+    <li>
+      <NavLink
+        to={"/featured"}
+        className={({ isActive }) =>
+          isActive
+            ? " text-yellow-500"
+            : "cursor-pointer hover:text-yellow-500"
+        }
+      >
+        <FaRegHeart className="relative" />
+        <sup className="absolute ml-5 text-md mt-8 text-yellow-500">0</sup>
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        to={"/featured"}
+        className={({ isActive }) =>
+          isActive
+            ? " text-yellow-500"
+            : "cursor-pointer hover:text-yellow-500"
+        }
+      >
+        <MdOutlineShoppingCart className="relative" />
+        <sup className="absolute ml-5 text-md mt-8 text-yellow-500">0</sup>
+      </NavLink>
+    </li>
+    <li>
+      {user ? (
+      <>
+       <div className="flex items-center">
+    <Link to={"/profile"}>
+      <img
+        className="w-10 h-10 rounded-full border border-yellow-500 mr-2"
+        src={user.photoURL}
+        alt=""
+      />
+    </Link>
+    <span
+      onClick={handleLogOut}
+      className="cursor-pointer text-yellow-500 px-3 py-[4px] border"
+    >
+      Logout
+    </span>
+  </div>
+    </>
+  ) : (
+    <NavLink
+      to={"/login"}
+      className={({ isActive }) =>
+        isActive
+          ? " text-yellow-500 flex items-center px-3 py-[4px] border"
+          : "cursor-pointer text-yellow-500 flex items-center px-3 py-[4px] border"
+      }
+    >
+      <MdPerson3 />
+      <span className="ml-2">Login</span>
+    </NavLink>
+  )}
+</li>
+  </ul>
         </div>
 
         <div>{click && content}</div>
