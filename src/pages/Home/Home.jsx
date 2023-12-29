@@ -1,4 +1,6 @@
 import Collection from "../../components/Collection/Collection";
+import Contact from "../../components/Contact/Contact";
+import Footer from "../../components/Footer/Footer";
 import ProductOrder from "../../components/ProductOrder/ProductOrder";
 import Service from "../../components/Service/Service";
 import Tesimonial from "../../components/Testimonial/Tesimonial";
@@ -14,6 +16,8 @@ const Home = () => {
             <Collection></Collection>
             <ProductOrder></ProductOrder>
             <Tesimonial></Tesimonial>
+            <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };

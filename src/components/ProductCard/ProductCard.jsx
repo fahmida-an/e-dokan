@@ -8,7 +8,7 @@ const ProductCard = ({item}) => {
     <img src={image} alt={title} className="transition-transform transform hover:scale-110 h-[200px] object-cover" />
   </figure>
   <div className="card-body flex flex-col items-center h-1/3">
-    <h2 className="card-title line-clamp-2">{title}</h2>
+    <h2 className="card-title line-clamp-1">{title}</h2>
     <h2 className="card-title font-normal text-lg">Price: {price}</h2>
     <div className="card-actions justify-end">
       <Link to={`/product/${_id}`}>

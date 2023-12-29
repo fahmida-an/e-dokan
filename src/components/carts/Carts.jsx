@@ -3,18 +3,18 @@ import useCart from "../../hooks/useCart";
 
 const Carts = () => {
   const [carts] = useCart();
-
+const totalPrice = carts.reduce((total,item) => total + parseFloat(item.price), 0)
   return (
     <>
     <div>
                 <h2 className="text-4xl font-bold flex items-center justify-center p-14">My Cart</h2>
             </div>
-    <div className="max-w-6xl mx-auto flex gap-8">
+    <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
          
 
       <div className="relative overflow-x-auto  ">
         <table className="w-full text-sm text-left rtl:text-right text-slate-600 ">
-          <thead className="text-xs uppercase bg-gray-50">
+          <thead className="text-xs uppercase bg-slate-200">
             <tr>
               <th scope="col" className="px-16 py-3">
                 Image
@@ -34,7 +34,7 @@ const Carts = () => {
             {carts.map((item) => (
               <tr
                 key={item._id}
-                className="bg-white border-b hover:bg-gray-50"
+                className="bg-white border-b "
               >
                 <td className="p-4">
                   <img
@@ -66,17 +66,22 @@ const Carts = () => {
       <div>
         
 
-<div className="w-72 h-[320px] p-6 bg-blue-200 border border-gray-200  flex flex-col justify-center items-center  ">
+<div className="w-72 h-[320px] p-6 mt-10 bg-slate-200 border border-gray-200  flex flex-col justify-center items-center mx-auto  ">
+    <h3 className="mb-10 border-b-2 w-full border-gray-500 py-1 text-xl">Order Summary</h3>
    
-    <a href="#">
-        <h5 className="mb-2 text-2xl font-semibold tracking-tight ">name</h5>
-    </a>
-    <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">Price</p>
-    <Link>
-    <h2 className="px-3 py-2 border inline-flex items-center bg-white text-blue-600 text-xl font-bold ">
-       CHECK OUT
-    </h2>
+        <h5 className="mb-2 font-semibold tracking-tight  py-2 border border-gray-600 w-full flex justify-center ">Total Order: {carts.length}</h5>
+
+    <p className="mb-3 font-semibold py-2 border border-gray-600 w-full flex justify-center">Total Price: ${totalPrice}</p>
+   { carts.length?  <Link to={'/payment'}>
+    <button  className="px-3 py-2 w-full border inline-flex items-center bg-yellow-500  rounded-lg text-xl font-bold ">
+       CHECKOUT
+    </button>
     </Link>
+  :   
+  <button  disabled className="px-3 py-2 w-full border inline-flex items-center bg-yellow-500  rounded-lg text-xl font-bold ">
+       CHECKOUT
+    </button>
+  }
 </div>
 
       </div>

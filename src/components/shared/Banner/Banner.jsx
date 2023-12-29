@@ -5,10 +5,9 @@ const Banner = () => {
         <section className="bg-amber-50 px-20">
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
             <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-                <h1 className="text-5xl font-bold leadi sm:text-6xl"><span className="text-yellow-500">Furniture</span> for your Home and Office
+                <h1 className="text-4xl font-bold leadi sm:text-5xl">Elegant <span className="text-yellow-500">Furniture </span>for home and office.
                 </h1>
-                <p className="mt-6 mb-8 text-lg sm:mb-12">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus consequuntur magnam facilis ipsa ratione nobis explicabo cum maiores. Facilis doloremque, fuga consectetur natus, sit placeat dicta.
-                   
+                <p className="mt-6 mb-8 text-lg sm:mb-12">Transform your living and workspace with our curated selection of stylish furniture for both your home and office.
                 </p>
                 <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                    

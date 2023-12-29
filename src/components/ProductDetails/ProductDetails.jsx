@@ -55,12 +55,50 @@ const ProductDetails = () => {
       <p className="text-lg">{productCard.description}</p>
     </div>
 
-    <div className="flex items-center justify-center mt-4">
-      <button  onClick={handleAddToCart} className="px-4 lg:px-32 py-3 text-lg font-semibold border rounded bg-yellow-500 flex items-center">
+    <div className="flex items-center justify-center mt-8">
+      <button  onClick={handleAddToCart} className="px-4 lg:px-20 py-3 text-lg font-semibold border rounded bg-yellow-500 flex items-center">
         Add to Cart
         <MdOutlineShoppingCart className="ml-2" />
       </button>
     </div>
+
+    <div className=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:max-w-5xl mt-10  lg:mx-auto py-8  border-t-2 rounded-lg">
+        <div className="block w-72 lg:w-96 mx-auto p-6 mt-4 bg-red1 border border-t-green1 border-gray-200 rounded-lg shadow hover:bg-white ">
+          <h5 className="mb-2 text-lg font-bold tracking-tight text-zinc4">
+            Instant Services
+          </h5>
+          <p className=" text-gray-700 text-sm">
+            Your convenience is our priority - we&apos;re ready to serve you as
+            soon as you book!
+          </p>
+        </div>
+
+        <div className="block  w-72 lg:w-96 mx-auto p-6 mt-4 bg-red1 border border-t-green1 border-gray-200 rounded-lg shadow hover:bg-white ">
+          <h5 className="mb-2 text-lg font-bold tracking-tight text-zinc4 ">
+            24/7 Quality Service
+          </h5>
+          <p className=" text-gray-700 text-sm ">
+          Unmatched Quality, Day and Night: 24/7 Service at Your Service.
+          </p>
+        </div>
+
+        <div className="block  w-72 lg:w-96 mx-auto p-6 mt-4 bg-red1 border border-t-green1 border-gray-200 rounded-lg shadow hover:bg-white ">
+          <h5 className="mb-2 text-lg font-bold tracking-tight text-zinc4">
+            Easy Customer Services
+          </h5>
+          <p className=" text-gray-700 text-sm ">
+          Simplify Your Experience with Our Easy Customer Services.
+          </p>
+        </div>
+        <div className="block  w-72 lg:w-96 mx-auto p-6 mt-4 bg-red1 border border-t-green1 border-gray-200 rounded-lg shadow hover:bg-white ">
+          <h5 className="mb-2 text-lg font-bold tracking-tight text-zinc4 ">
+            Quality Cost Services
+          </h5>
+          <p className=" text-gray-700 text-sm">
+          Quality Services, Affordable Prices: Excellence Need Not Be Expensive. Experience Superior Value with Us Today.
+          </p>
+        </div>
+      </div>
   </div>
   );
 };

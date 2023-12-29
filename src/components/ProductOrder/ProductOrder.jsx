@@ -17,7 +17,7 @@ const ProductOrder = () => {
     const newarrival= product.filter((item)=> item.category === "newarrival");
 
     return (
-        <div className="">
+        <div className="" id="featured">
             <div>
                 <h2 className="text-4xl font-bold flex items-center justify-center p-14">Our Products</h2>
             </div>

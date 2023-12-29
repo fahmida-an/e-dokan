@@ -7,6 +7,7 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 import { MdPerson3 } from "react-icons/md";
 import { AuthContext } from "../../../Provider/AuthProvider";
 import useCart from "../../../hooks/useCart";
+import { HashLink } from "react-router-hash-link";
 const Nav = () => {
   const [click, setClick] = useState(false);
   const { user, logOut } = useContext(AuthContext);
@@ -32,16 +33,58 @@ const Nav = () => {
               Home
             </li>
           </Link>
-          <Link to={"/products"}>
+          <Link to={"/product"}>
             <li className="my-4 py-3 hover:text-yellow-500 hover:rounded">
              Products
             </li>
           </Link>
-          <Link to={"/featured"}>
+         <Link>
+         <HashLink to={"/#featured"}>
             <li className="my-4 py-3 hover:text-yellow-500  hover:rounded">
               Featured
             </li>
-          </Link>
+          </HashLink>
+         </Link>
+
+         <li className="my-4 py-3 hover:text-yellow-500  hover:rounded">
+      <Link to={"/carts"}>
+        My Carts (
+      {carts.length > 0 ? carts.length : 0})
+      </Link>
+    </li>
+    <li>
+      {user ? (
+      <>
+       <div className="flex flex-col items-center justify-start gap-6">
+    <Link to={"/profile"}>
+      <img
+        className="w-20 h-20 rounded-full border border-yellow-500"
+        src={user.photoURL}
+        alt=""
+      />
+    </Link>
+    <button
+      onClick={handleLogOut}
+      className="cursor-pointer text-yellow-500 px-3 py-[4px] border"
+    >
+      Logout
+    </button>
+  </div>
+    </>
+  ) : (
+    <NavLink
+      to={"/login"}
+      className={({ isActive }) =>
+        isActive
+          ? " text-yellow-500 flex items-center px-3 py-[4px] border"
+          : "cursor-pointer text-yellow-500 flex items-center justify-center px-3 py-[4px] "
+      }
+    >
+      <MdPerson3 />
+      <span className="ml-2">Login</span>
+    </NavLink>
+  )}
+</li>
          
         </ul>
       </div>
@@ -86,8 +129,9 @@ const Nav = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink
-                  to={"/featured"}
+                <NavLink>
+                <HashLink
+                  to={"/#featured"}
                   className={({ isActive }) =>
                     isActive
                       ? " text-yellow-500"
@@ -95,6 +139,7 @@ const Nav = () => {
                   }
                 >
                   Featured
+                </HashLink>
                 </NavLink>
               </li>
            
